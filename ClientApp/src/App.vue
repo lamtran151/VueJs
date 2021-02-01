@@ -59,7 +59,8 @@ export default class App extends Vue {
   private items = [
     { title: 'Home', icon: 'mdi-home', link: '/' },
     { title: 'Counter', icon: 'mdi-gesture-tap', link: '/counter' },
-    { title: 'Fetch data', icon: 'mdi-download', link: '/fetch-data' }
+    { title: 'Fetch data', icon: 'mdi-download', link: '/fetch-data' },
+    { title: 'Demo', icon: 'mdi-download', link: '/demo' },
   ]
 }
 </script>
