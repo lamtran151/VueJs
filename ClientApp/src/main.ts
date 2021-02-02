@@ -6,9 +6,10 @@ import router from './router'
 import store from '@/store/index'
 import './registerServiceWorker'
 import dateFilter from '@/filters/date.filter'
-import Vuelidate from 'vuelidate'
+
+require('../public/dist/css/app.css')
+
 Vue.config.productionTip = false
-Vue.use(Vuelidate)
 
 Vue.filter('date', dateFilter)
 
