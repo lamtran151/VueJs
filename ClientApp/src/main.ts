@@ -6,7 +6,6 @@ import router from './router'
 import store from '@/store/index'
 import './registerServiceWorker'
 import dateFilter from '@/filters/date.filter'
-
 require('../public/dist/css/app.css')
 
 Vue.config.productionTip = false
